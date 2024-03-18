@@ -18,14 +18,14 @@ events:
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
-      Build flags: 
+      Build flags: /DWIN32;/D_WINDOWS;/W3
       Id flags:  
       
       The output was:
       0
       MSBuild version 17.3.1+2badb37d1 for .NET Framework
-      ‘Ў®аЄ  ­ з в  19.12.2023 15:05:15.
-      Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      ‘Ў®аЄ  ­ з в  18.03.2024 22:59:24.
+      Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
       PrepareForBuild:
         ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\".
         ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\CompilerIdC.tlog\\".
@@ -36,7 +36,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -44,13 +44,13 @@ events:
       FinalizeBuildStatus:
         ” ©« "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
         ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
       
       ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
           ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
           ЋиЁЎ®Є: 0
       
-      Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.99
+      Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.71
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -58,7 +58,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/3.27.7/CompilerIdC/CompilerIdC.exe
+        C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/CMakeFiles/3.27.7/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -70,14 +70,14 @@ events:
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
-      Build flags: 
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
       Id flags:  
       
       The output was:
       0
       MSBuild version 17.3.1+2badb37d1 for .NET Framework
-      ‘Ў®аЄ  ­ з в  19.12.2023 15:05:16.
-      Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      ‘Ў®аЄ  ­ з в  18.03.2024 22:59:25.
+      Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
       PrepareForBuild:
         ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\".
         ‘®§¤ ­ЁҐ Є в «®Ј  "Debug\\CompilerIdCXX.tlog\\".
@@ -88,7 +88,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -96,13 +96,13 @@ events:
       FinalizeBuildStatus:
         ” ©« "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
         ЋЎа йҐ­ЁҐ Є "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+      ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
       
       ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
           ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
           ЋиЁЎ®Є: 0
       
-      Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.65
+      Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.58
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -110,7 +110,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/3.27.7/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/CMakeFiles/3.27.7/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -121,45 +121,45 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9j2m8i"
-      binary: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9j2m8i"
+      source: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-ut4nqb"
+      binary: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-ut4nqb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9j2m8i'
+        Change Dir: 'C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-ut4nqb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5fb68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04e02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.3.1+2badb37d1 for .NET Framework
-        ‘Ў®аЄ  ­ з в  19.12.2023 15:05:17.
-        Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9j2m8i\\cmTC_5fb68.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        ‘Ў®аЄ  ­ з в  18.03.2024 22:59:26.
+        Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-ut4nqb\\cmTC_04e02.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
         PrepareForBuild:
-          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_5fb68.dir\\Debug\\".
-          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9j2m8i\\Debug\\".
-          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_5fb68.dir\\Debug\\cmTC_5fb68.tlog\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_04e02.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-ut4nqb\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_04e02.dir\\Debug\\cmTC_04e02.tlog\\".
         InitializeBuildStatus:
-          ‘®§¤ ­ЁҐ "cmTC_5fb68.dir\\Debug\\cmTC_5fb68.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ‘®§¤ ­ЁҐ "cmTC_04e02.dir\\Debug\\cmTC_04e02.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fb68.dir\\Debug\\\\" /Fd"cmTC_5fb68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04e02.dir\\Debug\\\\" /Fd"cmTC_04e02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
           ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.33.31629 ¤«п x64
           CMakeCCompilerABI.c
           (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fb68.dir\\Debug\\\\" /Fd"cmTC_5fb68.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04e02.dir\\Debug\\\\" /Fd"cmTC_04e02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9j2m8i\\Debug\\cmTC_5fb68.exe" /INCREMENTAL /ILK:"cmTC_5fb68.dir\\Debug\\cmTC_5fb68.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9j2m8i/Debug/cmTC_5fb68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9j2m8i/Debug/cmTC_5fb68.lib" /MACHINE:X64  /machine:x64 cmTC_5fb68.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_5fb68.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9j2m8i\\Debug\\cmTC_5fb68.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-ut4nqb\\Debug\\cmTC_04e02.exe" /INCREMENTAL /ILK:"cmTC_04e02.dir\\Debug\\cmTC_04e02.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-ut4nqb/Debug/cmTC_04e02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-ut4nqb/Debug/cmTC_04e02.lib" /MACHINE:X64  /machine:x64 cmTC_04e02.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_04e02.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-ut4nqb\\Debug\\cmTC_04e02.exe
         FinalizeBuildStatus:
-          ” ©« "cmTC_5fb68.dir\\Debug\\cmTC_5fb68.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
-          ЋЎа йҐ­ЁҐ Є "cmTC_5fb68.dir\\Debug\\cmTC_5fb68.tlog\\cmTC_5fb68.lastbuildstate".
-        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9j2m8i\\cmTC_5fb68.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+          ” ©« "cmTC_04e02.dir\\Debug\\cmTC_04e02.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_04e02.dir\\Debug\\cmTC_04e02.tlog\\cmTC_04e02.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-ut4nqb\\cmTC_04e02.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
         
         ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
             ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
             ЋиЁЎ®Є: 0
         
-        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.68
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.54
         
       exitCode: 0
   -
@@ -171,45 +171,45 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9balnm"
-      binary: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9balnm"
+      source: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-8kqi3y"
+      binary: "C:/Users/\u041c\u0438\u0445\u0430\u0438\u043b/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-8kqi3y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9balnm'
+        Change Dir: 'C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-8kqi3y'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_00fcc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d9ab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.3.1+2badb37d1 for .NET Framework
-        ‘Ў®аЄ  ­ з в  19.12.2023 15:05:18.
-        Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9balnm\\cmTC_00fcc.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+        ‘Ў®аЄ  ­ з в  18.03.2024 22:59:27.
+        Џа®ҐЄв "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-8kqi3y\\cmTC_6d9ab.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
         PrepareForBuild:
-          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_00fcc.dir\\Debug\\".
-          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9balnm\\Debug\\".
-          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_00fcc.dir\\Debug\\cmTC_00fcc.tlog\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_6d9ab.dir\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-8kqi3y\\Debug\\".
+          ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_6d9ab.dir\\Debug\\cmTC_6d9ab.tlog\\".
         InitializeBuildStatus:
-          ‘®§¤ ­ЁҐ "cmTC_00fcc.dir\\Debug\\cmTC_00fcc.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+          ‘®§¤ ­ЁҐ "cmTC_6d9ab.dir\\Debug\\cmTC_6d9ab.tlog\\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00fcc.dir\\Debug\\\\" /Fd"cmTC_00fcc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d9ab.dir\\Debug\\\\" /Fd"cmTC_6d9ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.33.31629 ¤«п x64
           CMakeCXXCompilerABI.cpp
           (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00fcc.dir\\Debug\\\\" /Fd"cmTC_00fcc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d9ab.dir\\Debug\\\\" /Fd"cmTC_6d9ab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9balnm\\Debug\\cmTC_00fcc.exe" /INCREMENTAL /ILK:"cmTC_00fcc.dir\\Debug\\cmTC_00fcc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9balnm/Debug/cmTC_00fcc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp2-lab5-polinoms/sln/CMakeFiles/CMakeScratch/TryCompile-9balnm/Debug/cmTC_00fcc.lib" /MACHINE:X64  /machine:x64 cmTC_00fcc.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_00fcc.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9balnm\\Debug\\cmTC_00fcc.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-8kqi3y\\Debug\\cmTC_6d9ab.exe" /INCREMENTAL /ILK:"cmTC_6d9ab.dir\\Debug\\cmTC_6d9ab.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-8kqi3y/Debug/cmTC_6d9ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ЊЁе Ё«/Desktop/GIT/mp-lab6/sln/CMakeFiles/CMakeScratch/TryCompile-8kqi3y/Debug/cmTC_6d9ab.lib" /MACHINE:X64  /machine:x64 cmTC_6d9ab.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6d9ab.vcxproj -> C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-8kqi3y\\Debug\\cmTC_6d9ab.exe
         FinalizeBuildStatus:
-          ” ©« "cmTC_00fcc.dir\\Debug\\cmTC_00fcc.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
-          ЋЎа йҐ­ЁҐ Є "cmTC_00fcc.dir\\Debug\\cmTC_00fcc.tlog\\cmTC_00fcc.lastbuildstate".
-        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp2-lab5-polinoms\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-9balnm\\cmTC_00fcc.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+          ” ©« "cmTC_6d9ab.dir\\Debug\\cmTC_6d9ab.tlog\\unsuccessfulbuild" г¤ «пҐвбп.
+          ЋЎа йҐ­ЁҐ Є "cmTC_6d9ab.dir\\Debug\\cmTC_6d9ab.tlog\\cmTC_6d9ab.lastbuildstate".
+        ‘Ў®аЄ  Їа®ҐЄв  "C:\\Users\\ЊЁе Ё«\\Desktop\\GIT\\mp-lab6\\sln\\CMakeFiles\\CMakeScratch\\TryCompile-8kqi3y\\cmTC_6d9ab.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
         
         ‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
             ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
             ЋиЁЎ®Є: 0
         
-        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.68
+        Џа®и«® ўаҐ¬Ґ­Ё 00:00:00.57
         
       exitCode: 0
 ...

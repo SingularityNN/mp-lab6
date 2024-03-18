@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms
+# Install script for directory: C:/Users/Михаил/Desktop/GIT/mp-lab6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mp2-lab5-polinoms")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mp-lab6")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/gtest/cmake_install.cmake")
-  include("C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/listlib/cmake_install.cmake")
-  include("C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/polinom/cmake_install.cmake")
-  include("C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/polinomlib/cmake_install.cmake")
-  include("C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/polinomtest/cmake_install.cmake")
+  include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/gtest/cmake_install.cmake")
+  include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/listlib/cmake_install.cmake")
+  include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinom/cmake_install.cmake")
+  include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinomlib/cmake_install.cmake")
+  include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinomtest/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Михаил/Desktop/GIT/mp2-lab5-polinoms/sln/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
