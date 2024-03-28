@@ -11,6 +11,8 @@ const int nonDisplayedZeros = 4; // Количество неотображаемых нулей при выводе к
 class TPolinom : public THeadList<TMonom>
 {
 public:
+	double* Point;
+	double Calculation_res;
 	THeadList<TMonom> monoms;
 	void Parse(string str);
 	TPolinom();
@@ -18,16 +20,21 @@ public:
 	TPolinom(string str);
 	TPolinom& operator=(TPolinom& other); // присваивание
 	TPolinom& operator+(TPolinom& q); // сложение полиномов
+	TPolinom& operator-(TPolinom& q); // вычитание полиномов
 
 	// дополнительно можно реализовать:
 	void AddMonom(TMonom newMonom); // добавление монома
 	TPolinom MultMonom(TMonom monom); // умножение мономов
 	TPolinom AddPolinom(TPolinom& other); // добавление полинома
-	TPolinom operator*(double coef); // умножение полинома на число
+	TPolinom operator*(double coef); // умножение полинома на константу
 	TPolinom operator* (TPolinom& other); // умножение полиномов
 	bool operator==(TPolinom& other); // сравнение полиномов на равенство
 	string ToString(); // перевод в строку
 	bool IsEmpty();
+
+	void Set_point();
+	void Calculate_polinom();
+	string Get_Calculation_res();
 };
 
 bool TPolinom::IsEmpty() {
@@ -67,11 +74,17 @@ TPolinom::TPolinom() :THeadList<TMonom>::THeadList()
 
 TPolinom::TPolinom(TPolinom& other)
 {
+	Calculation_res = NULL;
+	Point = new double[3];
 	monoms = other.monoms;
+	Point = other.Point;
+	Calculation_res = other.Calculation_res;
 }
 
 TPolinom::TPolinom(string str)
 {	
+	Calculation_res = NULL;
+	Point = new double[3]; Point[0] = NULL; Point[1] = NULL; Point[2] = NULL;
 	vector<string> monoms_to_parse;
 	int i = 0;
 	string monom;
@@ -162,6 +175,19 @@ TPolinom& TPolinom::operator+(TPolinom& other)
 	return *this;
 }
 
+TPolinom& TPolinom::operator-(TPolinom& other)
+{
+	other.monoms.Reset();
+	for (int i = 0; i < other.monoms.GetLength(); i++) {
+		TMonom tmp = other.monoms.GetCurrentItem();
+		double coef = tmp.GetCoef();
+		tmp.SetCoef(-coef);
+		AddMonom(tmp);
+		other.monoms.GoNext();
+	}
+	return *this;
+}
+
 TPolinom TPolinom::AddPolinom(TPolinom& other)
 {
 	other.monoms.Reset();
@@ -225,7 +251,6 @@ bool TPolinom::operator==(TPolinom& other)
 	return true;
 }
 
-
 string TPolinom::ToString()
 {
 	string result = "";
@@ -243,7 +268,10 @@ string TPolinom::ToString()
 		coef = std::to_string(monoms.GetCurrentItem().GetCoef());
 		for (int j = 0; j < nonDisplayedZeros; j++) coef.pop_back();
 
-		tmp = coef + " * x^" + std::to_string(degX) + " y^" + std::to_string(degY) + " z^" + std::to_string(degZ);
+		if(monoms.GetCurrentItem().GetCoef() < 0)
+			tmp = "(" + coef + ")" + " * x^" + std::to_string(degX) + " y^" + std::to_string(degY) + " z^" + std::to_string(degZ);
+		else
+			tmp = coef + " * x^" + std::to_string(degX) + " y^" + std::to_string(degY) + " z^" + std::to_string(degZ);
 		result += tmp;
 
 		if(monoms.GetLength() - i > 1) result += " + ";
@@ -251,4 +279,34 @@ string TPolinom::ToString()
 	}
 
 	return result;
+}
+
+void TPolinom::Set_point() {
+	cout << "X = ";
+	cin >> Point[0];
+	cout << endl << "Y = ";
+	cin >> Point[1];
+	cout << endl << "Z = ";
+	cin >> Point[2];
+	cout << endl;
+}
+
+void TPolinom::Calculate_polinom() {
+	if(Point[0] == NULL || Point[1] == NULL || Point[2] == NULL)
+		throw exception("Point isn't set");
+
+	Calculation_res = 0;
+	monoms.Reset();
+	int size = monoms.GetLength();
+
+	for (int i = 0; i < size; i++) {
+		TMonom tmp_monom = monoms.GetCurrentItem();
+		Calculation_res += tmp_monom.Calculate_monom(this->Point);
+		monoms.GoNext();
+	}
+	
+}
+
+string TPolinom::Get_Calculation_res() {
+	return to_string(Calculation_res);
 }

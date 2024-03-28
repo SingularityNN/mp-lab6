@@ -4,7 +4,6 @@ struct TMonom
 	double coef; // коэффициент монома
 	int index; // индекс (свертка степеней)
 
-
 	TMonom() { 
 		this->coef = 1.0;
 		this->index = 0;
@@ -22,7 +21,6 @@ struct TMonom
 
 	void SetIndex(int ival) { index = ival; }
 	int GetIndex(void) { return index; }
-
 
 	bool operator==(const TMonom& other) { return (coef == other.coef) && (index == other.index); }
 	
@@ -48,5 +46,20 @@ struct TMonom
 
 	bool operator<(const TMonom& other) { return !(this->operator>(other) && (this->operator==(other))); }
 
+	double Calculate_monom(double* _point) {
+		if (index == 0) return 1.0;
 
+		double res = 1.0;
+		int degX = this->index / 100;
+		int degY = (this->index / 10) % 10;
+		int degZ = this->index % 10;
+		
+		res *= pow(_point[0], degX);
+		res *= pow(_point[1], degY);
+		res *= pow(_point[2], degZ);
+		res *= coef;
+
+		return res;
+
+	}
 };
