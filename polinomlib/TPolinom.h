@@ -35,6 +35,12 @@ public:
 	void Set_point();
 	void Calculate_polinom();
 	string Get_Calculation_res();
+
+	friend ostream& operator<<(ostream& os, TPolinom& pol) {
+		string str = pol.ToString();
+		os << str;
+		return os;
+	};
 };
 
 bool TPolinom::IsEmpty() {

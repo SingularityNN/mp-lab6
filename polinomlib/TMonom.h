@@ -62,4 +62,9 @@ struct TMonom
 		return res;
 
 	}
+
+	friend ostream& operator<<(ostream& os, TMonom& mon) {
+		os << mon.GetCoef() << "*x^" << mon.GetIndex() / 100 << "y^" << (mon.GetIndex() / 10) % 10 << "z^" << mon.GetIndex() % 10;
+		return os;
+	}
 };

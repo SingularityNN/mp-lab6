@@ -149,11 +149,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\TArithmeticExpression.cpp" />
+    <ClCompile Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\TPolinom.cpp" />
     <ClCompile Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\main.cpp" />
     <ClCompile Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\stack.cpp" />
+    <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\ChainHashTable.h" />
+    <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\HashTable1.h" />
+    <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\LinArrTable.h" />
     <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\TArithmeticExpression.h" />
     <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\TMonom.h" />
     <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\TPolinom.h" />
+    <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\basetable.h" />
     <ClInclude Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\polinomlib\stack.h" />
   </ItemGroup>
   <ItemGroup>
