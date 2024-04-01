@@ -24,26 +24,26 @@ public:
     virtual bool IsFull() const = 0;                       // заполнена?
     // основные методы
     virtual TValue* Find(TKey key) = 0;         // найти запись
-    virtual void Insert(TKey key, TValue value) = 0; // вставить
+    virtual void Insert(TKey key, TValue* value) = 0; // вставить
     virtual void Delete(TKey key) = 0;         // удалить запись
     // навигация
-    virtual int Reset(void) = 0; // установить на первую запись
-    virtual int IsTabEnded(void) const = 0; // таблица завершена?
-    virtual int GoNext(void) = 0; // переход к следующей записи
+    virtual int Reset() = 0; // установить на первую запись
+    virtual int IsTabEnded() const = 0; // таблица завершена?
+    virtual int GoNext() = 0; // переход к следующей записи
     // (=1 после применения GoNext для последней записи таблицы)
     // доступ
-    virtual TKey GetKey(void) const = 0;
-    virtual TValue GetValuePtr(void) const = 0;
+    virtual TKey GetKey() const = 0;
+    virtual TValue* GetValuePtr() const = 0;
     // Печать таблицы
     friend ostream& operator<<(ostream& os, basetable& tab)
     {
-        cout << "____________________________" << endl;
-        cout << "Table printing" << endl;
+        os << "=======================================================" << endl;
+        os << "Table printing" << endl;
         for (tab.Reset(); !tab.IsTabEnded(); tab.GoNext())
         {
-            os << " Key: " << tab.GetKey() << " Val: " << tab.GetValuePtr() << endl;
+            os << " Key: " << tab.GetKey() << " Val: " << *(tab.GetValuePtr()) << endl;
         }
-        os << "____________________________" << endl;
+        os << "=======================================================" << endl;
         return os;
     }
 };

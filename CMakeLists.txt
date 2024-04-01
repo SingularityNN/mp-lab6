@@ -7,6 +7,7 @@ set(polinom polinom) #Переменная с именем приложения
 set(polinomlib polinomlib) #Переменная с именем библиотеки
 set(polinomtest polinomtest)
 set(listlib listlib)
+set(interface interface)
 
 set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "Configs" FORCE) #Создается переменная CMAKE_CONFIGURATION_TYPES со значением "Debug;Release" и меткой/разделом Configs, переменная сохраниется в специальном файле доступном из всех файлов,
 if(NOT CMAKE_BUILD_TYPE) # проверка имеющихся у компилятора вариантов сборки
@@ -23,6 +24,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/polinomlib) #Добавляем 
 add_subdirectory(polinom) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
 add_subdirectory(polinomlib)
 add_subdirectory(polinomtest)
+add_subdirectory(interface)
 
 
 

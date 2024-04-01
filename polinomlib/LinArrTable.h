@@ -7,16 +7,16 @@ private:
     size_t curInd = 0;
     struct Tab {
         TKey key;
-        TValue value;
+        TValue* value;
+        
     };
     vector<Tab> data{};
 public:
-    int GetDataCount()   const {
-        return data.size();
-    }
-
-    bool IsEmpty()        const {
-        if (count == 0) return true; else return false;
+    LinArrTable() {}
+    virtual ~LinArrTable() {
+        for (auto& item : data) {
+            delete item.value; // Освобождаем память
+        }
     }
 
     bool IsFull() const override {
@@ -26,10 +26,10 @@ public:
     TValue* Find(TKey key)override {
         for (auto& val : data)
             if (val.key == key)
-                return &val.value;
+                return val.value;
         return nullptr;
     };
-    void Insert(TKey key, TValue value) override {
+    void Insert(TKey key, TValue* value) override {
         if (Find(key))
             return;
         Tab tmp = { key, value };
@@ -58,5 +58,5 @@ public:
     }
     // доступ
     TKey GetKey() const override { return data[curInd].key; }
-    TValue GetValuePtr() const override { return data[curInd].value; }
+    TValue* GetValuePtr() const override { return data[curInd].value; }
 };

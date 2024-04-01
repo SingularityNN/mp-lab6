@@ -5,3 +5,4 @@ C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/listlib/CMakeFiles/listlib.dir
 C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinom/CMakeFiles/polinom.dir
 C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinomlib/CMakeFiles/polinomlib.dir
 C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinomtest/CMakeFiles/polinomtest.dir
+C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/interface/CMakeFiles/interface.dir

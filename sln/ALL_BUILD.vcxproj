@@ -111,6 +111,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{510A8A1D-090D-377A-A9CC-DBB5BF84E466}</Project>
       <Name>gtest</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\sln\interface\interface.vcxproj">
+      <Project>{44AA207E-B572-3C53-A802-B716A269EB72}</Project>
+      <Name>interface</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Михаил\Desktop\GIT\mp-lab6\sln\listlib\listlib.vcxproj">
       <Project>{E5FB1F3B-1E0A-331A-AA87-D23BAD2572EF}</Project>
       <Name>listlib</Name>

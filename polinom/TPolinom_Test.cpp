@@ -97,9 +97,12 @@ int main()
 	//Тест таблиц
 	cout << "Линейная упорядоченная таблица на массиве.\n";
     LinArrTable<string, TPolinom> table;
-    TPolinom a("1,0*x^1*y^1*z^1");
+    /*TPolinom a("1,0*x^1*y^1*z^1");
     TPolinom b("15,3*x^1*y^2*z^3-5,23*x^4*y^2*z^8");
-    TPolinom c("2,2*x^2*y^3*z^2+3,5*x^6*y^6*z^6");
+    TPolinom c("2,2*x^2*y^3*z^2+3,5*x^6*y^6*z^6");*/
+    TPolinom* a = new TPolinom("1,0*x^1*y^1*z^1");
+    TPolinom* b = new TPolinom("15,3*x^1*y^2*z^3-5,23*x^4*y^2*z^8");
+    TPolinom* c = new TPolinom("2,2*x^2*y^3*z^2+3,5*x^6*y^6*z^6");
 
     /*TMonom a(3.22, 1, 2, 1);
     TMonom b(4.5, 3, 3, 2);*/
@@ -119,6 +122,7 @@ int main()
     table.Delete("pol1");
     cout << "После удаления: " << endl;
     cout << table << endl;
+    
 
     //cout << "Хеш-таблица с открытым перемешиванием.\n";
 

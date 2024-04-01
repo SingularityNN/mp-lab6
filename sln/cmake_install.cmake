@@ -39,6 +39,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinom/cmake_install.cmake")
   include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinomlib/cmake_install.cmake")
   include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/polinomtest/cmake_install.cmake")
+  include("C:/Users/Михаил/Desktop/GIT/mp-lab6/sln/interface/cmake_install.cmake")
 
 endif()
 
